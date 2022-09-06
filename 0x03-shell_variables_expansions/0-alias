@@ -1,3 +1,2 @@
 #!/bin/bash
-alias l1="ls"
-alias rem="rm *"
+alias l1="ls"; rem="rm*"
