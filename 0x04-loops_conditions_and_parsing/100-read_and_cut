@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This bash script display the content of the this file /etc/passwd
+while read -r folder
+do
+echo "$folder" | cut -d ':' -f1,3,6
+done < "/etc/passwd"
