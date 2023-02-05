@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This bash script displays lines containing the bash word and displays the PID of your Bash script
+# shellcheck disable=SC2009
+ps -aux | awk /bash/ 
