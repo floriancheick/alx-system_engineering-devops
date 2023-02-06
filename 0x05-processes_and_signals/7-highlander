@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This bash script display To infinity and beyond and in each interation sleep for 2 sec, when receiving a SIGTERM signal dipslay I am invincible!!!
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
